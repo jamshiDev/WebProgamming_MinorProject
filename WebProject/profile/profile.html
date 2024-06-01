@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile</title>
+  <link rel="stylesheet" href="./profile.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <a href="../section/sectionOne.html" style="text-decoration: none;" class="logo"><img class="chiron"
+          src="./icon/Frame1.svg" alt="">
+        <p>WiseUp</p>
+      </a>
+      <nav>
+        <input type="text" class="search" placeholder="Search">
+        <a class="collection" href="../course/course.html">Courses</a>
+        <a href="./profile.html" class="icon"><i class="fa-regular fa-user"></i></a>
+      </nav>
+      <div class="hamburger-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+    <div class="mobile-nav">
+      <input type="text" class="search" placeholder="Search">
+      <div class="mobile-nav-around">
+        <a class="collection" href="#">Courses</a>
+        <p class="icon"><i class="fa-regular fa-user"></i></p>
+      </div>
+    </div>
+    <section>
+      <div class="box">
+        <h1>Account & Settings</h1>
+        <p>Hello <span id="user-name">John</span>, you can manage your profile below</p>
+      </div>
+    </section>
+  </div>
+  <div class="contain">
+    <div class="around">
+      <div class="name-field">
+        <div>
+          <label for="first-name">First name</label>
+          <input type="text" id="first-name">
+        </div>
+        <span class="edit">Edit</span>
+      </div>
+      <div class="name-field">
+        <div>
+          <label for="last-name">Last name</label>
+          <input type="text" id="last-name">
+        </div>
+        <span class="edit">Edit</span>
+      </div>
+      <button class="save-button">Save</button>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-logo"><img class="footer-img" src="./icon/Frame.svg" alt=""> WiseUp</div>
+    <nav aria-label="About">
+      <a href="#">About</a>
+      <hr class="under_line">
+      <a href="#">Account</a>
+      <hr class="under_line">
+      <a href="#">Support</a>
+      <hr class="under_line">
+      <a href="#">Privacy</a>
+      <hr class="under_line">
+    </nav>
+    <div class="social-media">
+      <a href="#"><img src="./icon/Icon.svg" alt="Facebook"></a>
+      <a href="#"><img src="./icon/Icon1.svg" alt="Twitter"></a>
+      <a href="#"><img src="./icon/Icon2.svg" alt="YouTube"></a>
+      <a href="#"><img src="./icon/Icon3.svg" alt="Instagram"></a>
+    </div>
+    <h1>© 2024 WiseUp</h1>
+  </footer>
+
+  <script src="./profile.js"></script>
+</body>
+
+</html>
